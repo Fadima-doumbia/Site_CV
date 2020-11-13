@@ -121,20 +121,18 @@
 
       .hobbies {
         grid-area: H;
-        margin-right: 0.5rem;
-  
+        margin-right: 0.5rem;//là
+        height: auto;
+
         ul {
-          width: 80%;
-          height: 100%;
-          margin: 0 auto;
-          justify-content: space-between;
+          width: 80%;//là
+          height: 100%;//là
+          margin: 0 auto;//là
+          justify-content: space-between;//là
   
           li {
             height: 80%;
-            display: grid;
-            display: flex;
-
-
+            display: flex;//là
             i {
               position: absolute;
               color: $color-5;
@@ -146,27 +144,6 @@
           }
         }
       }
-    
-      // .hobbies {
-      //   grid-area: H;
-      //   padding-left: 1.5rem;
-  
-      //   ul {
-      //     height: 80%;
-      //     display: grid;
-  
-      //     li {
-      //       i {
-      //         position: absolute;
-      //         color: $color-5;
-      //       }
-      //       span {
-      //         position: absolute;
-      //         transform: translateX(2.2rem);
-      //       }
-      //     }
-      //   }
-      // }
     }
   }
   @media screen and (max-width: 950px){
@@ -198,29 +175,31 @@
   }
   @media screen and (max-width: 500px){
     .knowledgesContent {
-      display: grid !important;
-      grid-template-columns: 1fr !important;
-      grid-template-rows: 1fr 1fr 180px 180px !important;
-      grid-template-areas: 
-        "1"
-        "2"
-        "3"
-        "4" !important;
+      display: flex !important;
+      flex-direction: column;
+     
+      align-items: center;
       
-      .languages {
-        grid-area: 1 !important;
-      }
-      .experience {
-        grid-area: 2 !important;
+      .formations {
+        width: 80%;
+        height: auto;
         margin-left: 0 !important;
       }
+      .experience {
+        margin-left: 0 !important;
+        width: 80%;
+        height: auto;
+      }
       .otherSkills {
-        grid-area: 3 !important;
         margin-right: 0 !important;
+        width: 80%;
+        height: auto;
       }
       .hobbies {
-        grid-area: 4 !important;
         margin-top: .5rem !important;
+        margin-right: 0 !important;
+        width: 80%;
+        height: auto;
       }
     }
   }
