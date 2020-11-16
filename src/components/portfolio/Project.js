@@ -42,7 +42,6 @@ export default class Project extends Component {
                                         className = "button" target = "_blank">Code souce</a>
                                     </div>
                                 </div>
-
                                 <p className = "text">{info}</p>
                                 <div className = "button return"
                                 onClick = {this.handleInfo}>

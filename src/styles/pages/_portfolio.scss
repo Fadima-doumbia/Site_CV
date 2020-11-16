@@ -81,9 +81,10 @@
       display: flex;
       flex-wrap: wrap;
       justify-content: space-around;
+      height: auto;
   
       .project {
-        background: $color-2;
+        background: $color-6;
         border-radius: $borderRadius;
         margin: 0.5rem 0 0 0;
         text-align: center;
@@ -118,6 +119,7 @@
         font-size: 1.65rem;
         @include verticalCenter;
         justify-content: left;
+        color: $color-5;
   
       }
       img {
@@ -145,13 +147,14 @@
       }
       .showInfos {
         position: absolute;
-        top: 0;
+        top: 10rem;
         left: 0;
         bottom: 0;
         right: 0;
-        background: rgba(0, 0, 0, 0.507);
+        background: rgba(0, 0, 0, 0.801);
         animation: popup .3s ease forwards ;
         transform-origin: center;
+        height: 100%;
   
         .infosContent {
           position: relative;
@@ -181,22 +184,36 @@
         h2 {
           text-align: left;
           margin-bottom: 1rem;
+          width: 150px;
+          color: $white;
+          border-radius: 25px;
+          padding: 1rem;
+
         }
         .button {
           cursor: pointer;
-          color: $color-1;
-          background: $color-5;
+          color: $color-6;
+          background: $color-2;
           border-radius: $borderRadius;
           padding: 1rem;
           transition: .2s;
+          margin2rem: 1rem;
   
-          &:hover {
-            background: $color-4;
-          }
+          // &:hover {
+          //   background: $color-4;
+          // }
         }
         .text {
           text-align: justify;
           padding-bottom: 1rem;
+          width: 50%;
+          height: auto;
+          background-color: $color-1;
+          border-radius: $borderRadius;
+          margin-left: 26%;
+          // margin-right: auto;
+          color: $white;
+          padding: 2rem;
         }
         .return {
           margin: 1rem auto;
@@ -216,6 +233,7 @@
       }
       .infosContent {
         width: 100% !important;
+        margin-top: 10rem;
       }
     }
   }

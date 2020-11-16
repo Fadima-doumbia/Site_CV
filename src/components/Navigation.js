@@ -26,13 +26,13 @@ const Navigation = () => {
                             <span>Compétences</span>
                         </NavLink>
                     </li>
-                    {/* <li>
-                        <NavLink exact to = "/Portfolio" activeClassName = "navActive"> */}
+                    <li>
+                        <NavLink exact to = "/Portfolio" activeClassName = "navActive">
                             {/* avec avtiveClasseName je mets une class que quand le lien est active elle met une couleur sur l'element cliqué pour le differencier des autres */}
-                            {/* <i className = "fas fa-images"></i>
+                            <i className = "fas fa-images"></i>
                             <span>Portfolio</span>
                         </NavLink>
-                    </li> */}
+                    </li>
                     <li>
                         <NavLink exact to = "/Contact" activeClassName = "navActive">
                             {/* avec avtiveClasseName je mets une class que quand le lien est active elle met une couleur sur l'element cliqué pour le differencier des autres */}

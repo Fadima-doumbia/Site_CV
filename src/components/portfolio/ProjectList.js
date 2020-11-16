@@ -9,7 +9,7 @@ export default class ProjectList extends Component {
             {id: 1, value: "JavaScript"},
             {id: 2, value: "React"},
             {id: 3, value: "CSS"},
-            {id: 4, value: "Express"},
+            // {id: 4, value: "Express"},
         ],
 
         selectedRadio : "JavaScript"
@@ -50,7 +50,8 @@ export default class ProjectList extends Component {
                     {
                         projects
                             // .filter(item => item.languages.includes
-                            //     (selectedRadio))
+                            // (selectedRadio)
+                            // )
                             // pour filtrer a partir de la base de donnée portfolioData
                             .map((item) => {
                             return (

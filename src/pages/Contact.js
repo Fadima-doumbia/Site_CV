@@ -48,10 +48,10 @@ const Contact = () => {
                             <h4>Github</h4>
                             <i className = "fab fa-github"> </i>
                         </a>
-                        <a href = "" target = "_blank" rel = "noopener noreferrer">
+                        {/* <a href = "" target = "_blank" rel = "noopener noreferrer">
                             <h4>Twitter</h4>
                             <i className = "fab fa-twitter"> </i>
-                        </a>
+                        </a> */}
                     </ul>
                 </div>
             </div>
