@@ -9,8 +9,6 @@ const Experiences = () => {
                 <h5>Janv.2019– Mai.2019</h5>
                 <p>
                     DRAEGER - Marly la ville
-                    {/* Préparer les commandes : conditionnement de cartons, de colis, préparation de palettes, …
-                    Assurer la sécurité des produits jusqu'à leur réception par le client */}
                 </p>
             </div>
 

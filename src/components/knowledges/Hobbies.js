@@ -4,7 +4,7 @@ const Hobbies = () => {
     return (
         <div className="hobbies">
             <div className = "hobbies">
-                <h3>Intéret</h3>
+                <h3>Intérets</h3>
                 <ul>
                     <li className = "hobbies">
                         <i className = "fas fa-running"></i>

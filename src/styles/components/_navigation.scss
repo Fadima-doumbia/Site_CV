@@ -1,5 +1,5 @@
 .sidebar {
-    background: $color-1;
+    background: $color-6;
     font-family: $font-1;
     height: auto;
     min-height: $minHeight;
@@ -14,7 +14,7 @@
       "1"
       "2"
       "3";
-  
+
     .id {
       grid-area: 1;
       text-align: center;
@@ -147,6 +147,8 @@
       .navigation{
         width: 100%;
         padding: .1rem 1rem;
+        flex-direction: column;
+
 
         ul {
         display: flex;
@@ -156,6 +158,9 @@
           margin-left: 1.5rem !important;
         }
       }
+    }
+    .signature{
+      display: none !important;
     }
   }
 }
@@ -174,10 +179,10 @@
       }
       span {
         display: none;
-      // @media screen and (max-width:580px){
-                
-      //}
       }
+    }
+        .signature{
+      display: none !important;
     }
   }
 }

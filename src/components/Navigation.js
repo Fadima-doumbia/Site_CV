@@ -53,22 +53,17 @@ const Navigation = () => {
                         <a href = "https://github.com/Fadima-doumbia" target = "_blank" rel = "noopener noreferrer">
                             <i className = "fab fa-github"> </i>
                         </a>
-                    </li><li>
-                        <a href = "" target = "_blank" rel = "noopener noreferrer">
-                            <i className = "fab fa-twitter"> </i>
-                        </a>
-                    </li><li>
-                        <a href = "" target = "_blank" rel = "noopener noreferrer">
-                            <i className = "fab fa-codepen"> </i>
-                        </a>
                     </li>
+                    {/* <li>
+                        <a href = "" target = "_blank" rel = "noopener noreferrer">
+                            <i className = "fab fa-google"> </i>
+                        </a>
+                    </li> */}
                 </ul>
             </div>
             <div className = "signature">
-                <p>FromScratch -2020</p>
+                <p>From Fadima_Doumbia -2020</p>
             </div>
-
-
         </div>
     );
 };

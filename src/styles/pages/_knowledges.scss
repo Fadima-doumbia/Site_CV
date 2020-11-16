@@ -13,7 +13,7 @@
         "O O H";
   
       .formations, .experience, .otherSkills, .hobbies {
-        background: $color-2;
+        background: $color-6;
         border-radius: $borderRadius;
         padding: .8rem;
       }
@@ -50,6 +50,7 @@
         p {
           text-align: justify;
           padding: 0 1rem;
+          color: $white;
         }
         .exp-1 {
           grid-area: 2;
@@ -84,6 +85,8 @@
         p {
           text-align: justify;
           padding: 0 1rem;
+          color: $white;
+
         }
         .exp-1 {
           grid-area: 2;
@@ -111,9 +114,16 @@
           ul {
             height: 80%;
             display: grid;
+            margin-right: 0.5rem;
+
+
+            li{
+              color: $white;
+            }
   
             i {
               color: $color-5;
+              margin-right: 0.5rem;
             }
           }
         }
@@ -121,18 +131,20 @@
 
       .hobbies {
         grid-area: H;
-        margin-right: 0.5rem;//là
+        margin-right: 0.5rem;
         height: auto;
 
         ul {
-          width: 80%;//là
-          height: 100%;//là
-          margin: 0 auto;//là
-          justify-content: space-between;//là
+          width: 80%;
+          height: 100%;
+          margin: 0 auto;
+          justify-content: space-between;
   
           li {
             height: 80%;
-            display: flex;//là
+            display: flex;
+            color: $white;
+
             i {
               position: absolute;
               color: $color-5;
@@ -148,30 +160,106 @@
   }
   @media screen and (max-width: 950px){
     .knowledgesContent {
-      h3 {
-        font-size: 1.2rem !important;
+      display: flex !important;
+      flex-direction: column;
+     
+      align-items: center;
+      
+      .formations {
+        width: 100%;
+        height: auto;
+        margin-left: 0 !important;
       }
-      .languagesList {
-        padding-top: .2rem !important;
+      .experience {
+        margin-left: 0 !important;
+        width: 100%;
+        height: auto;
       }
-      p {
-        font-size: .8rem;
+      .otherSkills {
+        margin-right: 0 !important;
+        width: 100%;
+
+        .list {
+          display: flex;
+          width: 100% !important;
+          height: auto !important;
+          margin-top: .5rem !important;
+        }
       }
-      .otherSkills, .hobbies {
-        font-size: .8rem;
+      .hobbies {
+        margin-top: .5rem !important;
+        margin-right: 0 !important;
+        width: 100%;
+        height: auto;
+
+        ul {
+          width: 100% !important;
+        }
       }
     }
+
+
+    // .knowledgesContent {
+    //   h3 {
+    //     font-size: 1.2rem !important;
+    //   }
+    //   .languagesList {
+    //     padding-top: .2rem !important;
+    //   }
+    //   p {
+    //     font-size: .8rem;
+    //   }
+    //   .otherSkills, .hobbies {
+    //     font-size: .8rem;
+    //   }
+    // }
   }
   @media screen and (max-width: 850px){
     .knowledgesContent {
-      h4 {
-        font-size: .9rem !important;
+      display: flex !important;
+      flex-direction: column;
+     
+      align-items: center;
+      
+      .formations {
+        width: 100%;
+        height: auto;
+        margin-left: 0 !important;
       }
-      h5 {
-        font-size: .6rem !important;
-        padding: .2rem 1rem !important;
+      .experience {
+        margin-left: 0 !important;
+        width: 100%;
+        height: auto;
+      }
+      .otherSkills {
+        margin-right: 0 !important;
+        width: 100%;
+
+        .list {
+          display: flex;
+          width: 100% !important;
+        }
+      }
+      .hobbies {
+        margin-top: .5rem !important;
+        margin-right: 0 !important;
+        width: 100%;
+        height: auto;
+
+        ul {
+          width: 100% !important;
+        }
       }
     }
+    // .knowledgesContent {
+    //   h4 {
+    //     font-size: .9rem !important;
+    //   }
+    //   h5 {
+    //     font-size: .6rem !important;
+    //     padding: .2rem 1rem !important;
+    //   }
+    // }
   }
   @media screen and (max-width: 500px){
     .knowledgesContent {
@@ -181,24 +269,24 @@
       align-items: center;
       
       .formations {
-        width: 80%;
+        width: 100%;
         height: auto;
         margin-left: 0 !important;
       }
       .experience {
         margin-left: 0 !important;
-        width: 80%;
+        width: 100%;
         height: auto;
       }
       .otherSkills {
         margin-right: 0 !important;
-        width: 80%;
+        width: 100%;
         height: auto;
       }
       .hobbies {
         margin-top: .5rem !important;
         margin-right: 0 !important;
-        width: 80%;
+        width: 100%;
         height: auto;
       }
     }
