@@ -21,7 +21,7 @@ export const portfolioData = [
     id: 3,
     name: 'Disney +',
     languages: ['javascript','php','css'],
-    languagesIcons:['fab fa-js','fab fa-php','fab fa-css3-alt'],
+    languagesIcons:['fab fa-js','fab fa-html','fab fa-css3-alt'],
     source: 'https://github.com/Fadima-doumbia/Projet_disney',
     info: "Dans la base projet vous j'avais les maquettes ainsi que les assets (images) déjà fournis pour le projet; mon rendu devait s'adapter a toutes les devices et correspondre exatement a la page d'accueil de Disney+. Les critères de performance de l'exercices sont: Sémantique, adaptabilité/accessibilité, responsive design. le projet est à rendre dans un delais de 3 jours",
     picture: './media/disney.png'

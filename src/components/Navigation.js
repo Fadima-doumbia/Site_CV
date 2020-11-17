@@ -13,31 +13,34 @@ const Navigation = () => {
             <div className = "navigation">
                 <ul>
                     <li>
-                        <NavLink exact to = "/" activeClassName = "navActive">
+                        <NavLink exact to = "/" activeClassName = "navActive" className = "navLink">
                             {/* avec avtiveClasseName je mets une class que quand le lien est active elle met une couleur sur l'element cliqué pour le differencier des autres */}
                             <i className = "fas fa-home"></i>
-                            <span>Accueil</span>
+                            <span className = "span">Accueil</span>
                         </NavLink>
                     </li>
                     <li>
-                        <NavLink exact to = "/Compétences" activeClassName = "navActive">
+                    <NavLink to = "/Compétences" activeClassName = "navActive" className = "navLink">
+
                             {/* avec avtiveClasseName je mets une class que quand le lien est active elle met une couleur sur l'element cliqué pour le differencier des autres */}
-                            <i className = "fas fa-mountain"></i>
-                            <span>Compétences</span>
-                        </NavLink>
+                            <i className = "fas fa-mountain">
+                            </i>
+                            <span className = "span">Compétences</span>
+                            </NavLink>
+
                     </li>
                     <li>
-                        <NavLink exact to = "/Portfolio" activeClassName = "navActive">
+                        <NavLink to = "/Portfolio" activeClassName = "navActive" className = "navLink">
                             {/* avec avtiveClasseName je mets une class que quand le lien est active elle met une couleur sur l'element cliqué pour le differencier des autres */}
                             <i className = "fas fa-images"></i>
-                            <span>Portfolio</span>
+                            <span className = "span">Portfolio</span>
                         </NavLink>
                     </li>
-                    <li>
-                        <NavLink exact to = "/Contact" activeClassName = "navActive">
+                    <li> 
+                        <NavLink to = "/Contact" activeClassName = "navActive" className = "navLink">
                             {/* avec avtiveClasseName je mets une class que quand le lien est active elle met une couleur sur l'element cliqué pour le differencier des autres */}
-                            <i className = "fas fa-address-book"></i>
-                            <span>Contact</span>
+                            <i className = "fas fa-address-book"> </i>
+                            <span className = "span">Contact</span>
                         </NavLink>
                     </li>
                 </ul>

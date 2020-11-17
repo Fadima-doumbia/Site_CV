@@ -1,7 +1,7 @@
 .sidebar {
     background: $color-6;
     font-family: $font-1;
-    height: auto;
+    height: 100%;
     min-height: $minHeight;
     width: 264px;
     border-radius: $borderRadius;
@@ -55,9 +55,9 @@
           font-size: 1.3rem;
           position: relative;
   
-          &:hover i {
-            transform: translate(3px, 3px);
-          }
+          // &:hover i {
+          //   transform: translate(3px, 3px);
+          // }
   
           a {
           color: $color-5;
@@ -120,18 +120,18 @@
       p {
         color: $color-5;
 
-        &:hover {
-          color: $color-4;
-        }
+        // &:hover {
+        //   color: $color-4;
+        // }
       }
 
-      // a, a:visited {
-      //   color: $color-5;
+      a, a:visited {
+        color: $color-5;
 
-      //   &:hover {
-      //     color: $color-4;
-      //   }
-      // }
+        // &:hover {
+        //   color: $color-4;
+        // }
+      }
     }
   }
 @media screen and (max-width: 850px){
@@ -165,24 +165,28 @@
   }
 }
 
-@media screen and (max-width:580px){
+@media screen and (max-width:700px){
   .sidebar {
     ul {
       justify-content: space-around !important;
 
       li {
         padding: 1rem 0 !important;
+        .navLink{
+          width: 50px !important;
+          // display: flex;
+          min-height: 50px;
+          // border : 7px solid red;
+
+          i {
+            font-size: 1.4rem !important;
+            transform: translateY(-3px) !important;
+          }
+          .span {
+            display: none;
+          }
+        }
       }
-      i {
-      font-size: 1.4rem !important;
-      transform: translateY(-3px) !important;
-      }
-      span {
-        display: none;
-      }
-    }
-        .signature{
-      display: none !important;
     }
   }
 }
