@@ -13,7 +13,7 @@ const Contact = () => {
                     <h1>Contactez-moi</h1>
                     <ul className = "">
                         <li>
-                            <i className = "fas fa-map-market-alt"></i>
+                            <i className = "fas fa-map-marker-alt"></i>
                             <span>Tremblay En France</span>
                         </li>
                         <li>

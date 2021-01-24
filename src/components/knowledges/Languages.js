@@ -50,7 +50,7 @@ const Languages = () => {
             <h3>formations</h3>
             <div className= "exp-D">
                 <h4>Developpeuse Web - Web mobile</h4>
-                <h5>Simplon.co Aulnay-sous-Bois En-cours - Avril 2022</h5>
+                <h5>Simplon.co Aulnay-sous-Bois Juillet - Décembre 2020</h5>
                 <p>
                 <h5>Frameworks</h5>
                 <div className = "frameworks">

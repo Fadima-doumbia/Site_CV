@@ -26,7 +26,7 @@ export default class ProjectList extends Component {
 
         return (
             <div className = "portfolioContent">
-                <ul className = "radioDisplay">
+                {/* <ul className = "radioDisplay">
                     {
                         radios.map((radio) => {
                             return (
@@ -44,7 +44,7 @@ export default class ProjectList extends Component {
                             )
                         })
                     }
-                </ul>
+                </ul> */}
 
                 <div className = "projects">
                     {
