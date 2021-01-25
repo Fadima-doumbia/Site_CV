@@ -26,15 +26,15 @@ export const portfolioData = [
     info: "Dans la base projet vous j'avais les maquettes ainsi que les assets (images) déjà fournis pour le projet; mon rendu devait s'adapter a toutes les devices et correspondre exatement a la page d'accueil de Disney+. Les critères de performance de l'exercices sont: Sémantique, adaptabilité/accessibilité, responsive design. le projet est à rendre dans un delais de 3 jours",
     picture: './media/disney.png'
   },
-  // {
-  //   id: 4,
-  //   name: 'laboriosam.fr',
-  //   languages: ['javascript','php','react'],
-  //   languagesIcons: ['fab fa-js','fab fa-php','fab fa-react'],
-  //   source: 'https://github.com/Fadima-doumbia/Projet_OTF ',
-  //   info: Dans la base projet vous retrouverez les maquettes ainsi que les assets pour le projet, votre rendu doit s'adapter a toutes les devices et correspondre exatement a la page d'accueil de Disney+. Les critères de performance de l'exercices sont: Sémantique, adaptabilité/accessibilité, responsive design. le projet est à rendre dans un delais de 3 jours",
-  //   picture: './media/map.jpg'
-  // },
+  {
+    id: 4,
+    name: 'La Tondeuse',
+    languages: ['javascript'],
+    languagesIcons: ['fab fa-js'],
+    source: 'https://github.com/Fadima-doumbia/La-tondeuse',
+    info: "OBJECTIF Concevoir et écrire un programme implémentant la spécification ci-dessus et passant le test ci-après. TEST Le fichier suivant est fourni en entrée : 55 44 S GADDAAGADAA 22 N AADGGDADGA On attend le résultat suivant (position finale des tondeuses) : 13W 25N",
+    picture: './media/images.jpg'
+  },
   // {
   //   id: 5,
   //   name: 'repudiante.com',
